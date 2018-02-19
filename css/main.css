@@ -1,54 +1,62 @@
 .nav-color{
- background-color: rgba(0, 0, 0, 0.87);
+ background-color: #1c151b
+ 
 }
 .wd{
 font-size: 20px;
+
+
 }
 
 .image{
-background-color: rgb(171, 116, 207);
+background-color: rgb(231, 76, 135)
 }
 .inicio{
- background-image: url('http://1.bp.blogspot.com/-E77G0Pv_Ugg/TZ9QhsqpEKI/AAAAAAAAcDM/5iZmNTRbGKU/s1600/Mujeres%2Bfantasticas%2B4.jpg');
+ position: absolute;
+ background-image: url('https://static.vix.com/es/sites/default/files/styles/large/public/imj/cabello_fuerte13.jpg?itok=OjkbTClA');
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
  height: 100vh;
- font-family: 'Chau Philomene One', sans-serif;
- color:white;
- font-size: 48px;
- text-align: center;
-background-color: #f80925;
-  opacity: 0.6;
+ font-size: 55px;
+ color: black;
+ font-family:Finger;
+
+}
+.texthome{
+  font-size: 30px;
+ margin-left: 5%;
+  
 }
 
-hr{
-width: 90%;
-background-color: antiquewhite;
-border: 5px solid white;
-}
+
 
 .center{  
  margin-left: auto;
  margin-right: auto;
  display: block;
- width: 40%;
- /* border-radius: 50%; */
-border: 3px solid;
-
-
+ width: 80%;
+ height: 100vh;
 }
 
+
 .skills{
-  background: linear-gradient( rgb(248, 139, 224) 25%, rgb(195, 75, 255)); 
- width:100%;
+ background: white;
+
 }
 .circle{
  border-radius: 50%;
- width: 120px;
- height: 100px;
  margin: 5%;
  background-color: aliceblue;
  text-align: center;
  display: inline-block;
 }
+.mr-logo{
+  margin-left: 35px;
+
+}
+
+/* efecto para la presentación*/
+
+
+

@@ -15,62 +15,51 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-md navbar-inverse nav-color navbar-toggleable-md">
+		<nav class="navbar navbar-expand-md navbar-inverse nav-color navbar-toggleable-md fixed-top">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
 			 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<a class="navbar-brand" href="index.html">
-				<img src="assets/img/logo.png" width="135" height="70" class="d-inline-block align-top" alt="neff">
+				<img src="assets/img/logo.png" width="70" height="70" class="d-inline-block align-top mr-logo " alt="neff">
 			</a>
-			<div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
-				<div class="navbar-nav mr-auto text-center wd">
-					<a class="nav-item nav-link active" href="#">Inicio</a>
-					<a class="nav-item nav-link " href="#">¿Quien soy?</a>
-					<a class="nav-item nav-link" href="#">Habilidades</a>
-					<a class="nav-item nav-link" href="#">Proyectos</a>
-					<a class="nav-item nav-link" href="#">Contactame</a>
-				</div>
-				<div class="d-flex flex-row justify-content-center wd">
-					<a href="https://www.facebook.com/nefy.morales" class="mr-4" target="_blank">
-						<i class="icon-facebook2 "></i>
-					</a>
-					<a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=act&pli=1" target="_blank">
-						<i class="icon-gmail "></i>
-					</a>
+			<div class="collapse navbar-collapse text-center " id="navbarTogglerDemo01">
+				<div class="navbar-nav  text-center ml-auto wd ">
+					<a class="nav-item nav-link active" href="#home">INICIO</a>
+					<a class="nav-item nav-link " href="#about">ACERCA DE MÍ</a>
+					<a class="nav-item nav-link " href="#">HABILIDADES</a>
+					<a class="nav-item nav-link " href="#">PROYECTOS</a>
+					<a class="nav-item nav-link " href="#">CONTACTAME</a>
 				</div>
 			</div>
 		</nav>
+				
 	</header>
 	<main>
-		<section class="container-fluid image">
+		<section class="container-fluid d-flex align-items-center inicio" id="home">
 			<div class="row">
-				<div class="col inicio">
+				<div class="col contenedor">
 					<p>Nefeli Joñoruco Morales</p>
-					<span>Fronted Developer</span>
-					<hr>
-					En La vida no se trata de ganar la carrera, se trata de terminar la 
-					carrera y a cuantas personas podemos ayudar a terminarlas.
-					<hr>
-
+					<p class="texthome">front-end developer</p>
+					<span>&#160;</span>
 				</div>
+				
 		</section>
-		<section class="container-fluid image">
+		<section class="container-fluid image" id="about">
 			<div class="row">
-				<div class="col mt-5 mb-5">
+				<div class="col-sm-12  col-md-6 col-lg-6 mt-5 mb-5">
 					<video src="assets/img/video.mp4" controls class="center">
 		
-					</video>
-
-					<div class="circle">Alergre</div>
-					<div class="circle">Optimista</div>
-					<div class="circle">Perseverante</div>
-					<div class="circle">Deportista</div>
-					<div class="circle" >Resiliente</div>
+					</video>						
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 mt-5 mb-5">
 				
+					<div class="post" >Hola soy Nefeli, egresada de laboratoria, desde que empece a programar,Siento que mi vida 
+						a dado un giro por completo
+					</div>
 				</div>
 		</section>
-		<section class="skills">
+		<section class="skills ">
 			<h3>HABILIDADES</h3>
 		 <img src="assets/imgs/tools/html5.svg" alt="HTML5">
 			<p>Javascript</p>
