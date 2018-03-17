@@ -1,62 +1,88 @@
-.nav-color{
- background-color: #1c151b
- 
-}
-.wd{
-font-size: 20px;
-
-
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Acme', sans-serif;
 }
 
-.image{
-background-color: rgb(231, 76, 135)
+/******************************NAVBAR***********************/
+
+.nav-white{
+ color: white  !important;
+ font-size: 18px;
+ font-family: 'Acme', sans-serif;
 }
-.inicio{
- position: absolute;
- background-image: url('https://static.vix.com/es/sites/default/files/styles/large/public/imj/cabello_fuerte13.jpg?itok=OjkbTClA');
- background-repeat: no-repeat;
- background-position: center;
+
+/******************************INICIO***********************/
+
+.about-img{
+ background-image: url(../assets/images/portada.jpg);
  background-size: cover;
  height: 100vh;
- font-size: 55px;
- color: black;
- font-family:Finger;
-
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding-left: 0;
 }
-.texthome{
-  font-size: 30px;
- margin-left: 5%;
-  
+ .parragraph{
+ width: 600px;
+ height:200px;
+ color: white;
 }
+.parragraph h1{
+    font-size: 90px;
+} 
+.parragraph h2{
+    margin-top: 2%;
+    width: 500px;
+    height:70px;
+    color: white;
+    font-size: 50px;
+   }
 
 
+.contenedor {
+	margin: auto;
+	display: table;
+} 
 
-.center{  
- margin-left: auto;
- margin-right: auto;
- display: block;
- width: 80%;
- height: 100vh;
-}
-
-
-.skills{
- background: white;
-
-}
-.circle{
- border-radius: 50%;
- margin: 5%;
- background-color: aliceblue;
- text-align: center;
- display: inline-block;
-}
-.mr-logo{
-  margin-left: 35px;
-
+h2 { 
+	position: relative; 
+	float: left;
+	background: rgb(1,1,1);
+	color: #fff;
+    font-size: 2.5em;
 }
 
-/* efecto para la presentación*/
+h2 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: rgb(1,1,1);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(35) infinite alternate;
+}
 
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
 
-
+@media (min-width: 306px) and (max-width: 767.98px) { 
+    
+    .parragraph{
+        width: 200px;
+        height:200px;
+        color: white;
+       }
+       .parragraph h1{
+           font-size: 40px;
+       } 
+       .parragraph h2{
+           width: 200px;
+           height:40px;
+           color: white;
+           font-size: 20px;
+ 
+          }
+       
+}
