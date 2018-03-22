@@ -9,10 +9,22 @@ font-family: 'Acme', sans-serif;
 
 .nav-white{
  color: white  !important;
- font-size: 18px;
+ font-size: 15px;
  font-family: 'Acme', sans-serif;
 }
 
+.bg-inverse{
+    background-color: #000;
+  }
+.btn-collapse-color{
+    background-color: #FFF;
+  }
+.span-collapse-color{
+    color: #000;
+  }
+h3{
+ color: black;
+}
 /******************************INICIO***********************/
 
 .about-img{
@@ -21,7 +33,6 @@ font-family: 'Acme', sans-serif;
  height: 100vh;
  background-repeat: no-repeat;
  background-position: center center;
- padding-left: 0;
 }
  .parragraph{
  width: 600px;
@@ -48,7 +59,7 @@ font-family: 'Acme', sans-serif;
 h2 { 
 	position: relative; 
 	float: left;
-	background: rgb(1,1,1);
+	background: rgb(8, 10, 8);
 	color: #fff;
     font-size: 2.5em;
 }
@@ -57,7 +68,7 @@ h2 span {
     position:absolute;
     right:0;
     width:0;
-    background: rgb(1,1,1);
+    background: rgb(17, 22, 16);
     border-left: 1px solid #000;
     animation: escribir 5s steps(35) infinite alternate;
 }
@@ -85,4 +96,30 @@ h2 span {
  
           }
        
+}
+/******************************SOBRE MI***********************/
+.orange{
+background-color: rgb(246,226,52);
+}
+.gray-image{
+    background-color: rgb(226,228,216);
+}
+.about{
+ font-size: 19px;
+ 
+}
+.width-img{
+
+  height: 360px;
+}
+/******************************PROYECTOS***********************/
+.proyect{
+  width: 50%;
+  height: 100%;
+}
+/******************************FOOTER***********************/
+footer{
+ background-color: black;
+ font-size: 20px;
+ color: white;
 }
