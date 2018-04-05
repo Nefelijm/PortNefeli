@@ -59,7 +59,7 @@
   .cardifyFigure{
     margin: 3%;
     padding: 1.75%;
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -75,7 +75,7 @@
 /* Large */
 @media (min-width: 992px) {
   .cardifyFigure{
-    padding: 1%;
-    width: 20%;
+    padding: 3%;
+    width: 16%;
   }
 }
